@@ -1,0 +1,52 @@
+.mainbox {
+    display: flex;
+    width: 1000px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 20px;
+    flex: 1 1 auto;
+}
+.itemsbox {
+    display: flex;
+    width: 500px;
+}
+.item1 {
+    flex: 1 2 auto;
+    border: 1px solid black;
+    margin: 20px;
+    text-align: center;
+    line-height: 560px;
+    vertical-align: middle;
+}
+.item2 {
+    flex: 1 2 auto;
+    border: 1px solid black;
+    margin: 20px;
+    text-align: center;
+    line-height: 560px;
+    vertical-align: middle;
+}
+.buttonsbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+}
+.button1 {
+    height: 50px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+}
+.button2 {
+    height: 50px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+}
